@@ -1,12 +1,13 @@
 # Sbx Native
 
-此分支仅用于用于serv00、ct8、HostUno等平台部署 VMess Ws + Argo、VLESS Reality、Hysteria2、TUIC、AnyTLS、SOCKS5 等代理，只有主进程，没有子进程。
+此分支仅用于用于serv00、ct8、HostUno等平台部署 VMess Ws + Argo、VLESS Reality、Hysteria2、TUIC、AnyTLS、SOCKS5 等代理，只有主进程，没有子进程，服务掉线了更新订阅来链接即可快速启动。
 
-### serv00 | ct8 | HostUno 一键安装脚本
+### serv00 | ct8 | HostUno 一键安装脚本（安装完先访问首页启动，过20秒再获取节点）
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/eooce/sbx-native/serv00/ct8/install.sh)
 
 ```
+
 
 
 ## 环境变量
